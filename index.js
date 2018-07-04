@@ -1,4 +1,5 @@
-function f(x) {
-    return x;
+function f(x,p) {
+    var y = p;
+    return x*y;
 }
-alert(f(5));
+alert(f(5,8));
